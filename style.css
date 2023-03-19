@@ -135,6 +135,7 @@ body {
         width: auto;
         height: auto;
         grid-template-columns:auto;
+        flex: auto;
 
    
     }

@@ -42,61 +42,67 @@ body {
     justify-content: space-between;  
 }
 
+.foto1{
+    font-size: 50px;
+}
+
+.foto2{
+    font-size: 48px;
+    overflow: auto;
+}
+
 .giornicalendario{
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: transparent;
     padding: 10px;
 }
-.giorni-interno-1{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid rgba(0, 0, 0, 0.8);
+.vuoto{
+    
     padding: 20px;
     font-size: 30px;
-    text-align: end;
+    text-align: center;
+
 }
-.giorni-interno-2-3{
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid green;
-    padding: 10px;
+.giorni-interno-1{
+    
+    padding: 20px;
     font-size: 30px;
-    gap:25vw;
-    text-align: start;
+    text-align: center;
+}
+.giorni-interno-2{
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 .giorni-interno-3{
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid rgba(0, 0, 0, 0.8);
+    
+    padding: 20px;
     font-size: 30px;
     text-align: center;
 }
 .giorni-interno-4{  
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid rgba(0, 0, 0, 0.8);
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.giorni-interno-5{
+   
     padding: 20px;
     font-size: 30px;
     text-align: center;
 }
-.giorni-interno-5{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid rgba(0, 0, 0, 0.8);
+.giorni-interno-6{
+    
     padding: 20px;
     font-size: 30px;
-    text-align: end;
-}
-.giorni-interno-6-7{
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid green;
-    padding: 10px;
-    font-size: 30px;
-    gap:25vw;
-    text-align: start;
+    text-align: center;
 }
 .giorni-interno-7{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid rgba(0, 0, 0, 0.8);
+    
+    padding: 20px;
     font-size: 30px;
     text-align: center;
 }

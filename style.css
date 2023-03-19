@@ -1,0 +1,115 @@
+
+body {
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-rows: 4;
+    box-sizing: border-box;
+}
+.yellow{
+    display: flex;
+    background-color:#ffcc00 ;
+    width: auto;
+    margin: 3vw #ffcc00; 
+    justify-content: space-between; 
+}
+.item-a{
+    border: 1vw solid transparent;
+    width: 14.5vw;
+    display: flex;
+    padding: 0.5vw;
+
+}
+.item-c-b{
+    display: flex;
+    border: 3px solid transparent;
+    align-self: flex-start;
+
+}
+
+.item-c{
+    display:flex;
+    border: 3px solid transparent;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+
+.calendario{
+    display: flex;
+    background-color: transparent;
+    width: 92vw;
+    justify-content: space-between;  
+}
+
+.giornicalendario{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.giorni-interno-1{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: end;
+}
+.giorni-interno-2-3{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid green;
+    padding: 10px;
+    font-size: 30px;
+    gap:25vw;
+    text-align: start;
+}
+.giorni-interno-3{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+}
+.giorni-interno-4{  
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.giorni-interno-5{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: end;
+}
+.giorni-interno-6-7{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid green;
+    padding: 10px;
+    font-size: 30px;
+    gap:25vw;
+    text-align: start;
+}
+.giorni-interno-7{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1100px){
+    .body{
+        width: auto;
+        height: auto;
+        grid-template-columns:auto;
+
+   
+    }
+
+}
+
+

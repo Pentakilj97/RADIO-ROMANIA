@@ -22,6 +22,7 @@ body {
 
 }
 .item-c-b{
+    font-size: large;
     display: flex;
     border: 0px solid transparent;
     align-self: flex-start;
